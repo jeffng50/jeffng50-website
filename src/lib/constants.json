@@ -1,0 +1,13 @@
+{
+	"socialMediaLinks": {
+		"facebook": "https://www.facebook.com/jeef.arts/",
+		"instagram": "https://www.instagram.com/jeef.arts/"
+	},
+
+	"navbarLinks": {
+		"Home": "/",
+		"About Me": "/about-me",
+		"Blog": "/blog",
+		"Namecard": "/namecard"
+	}
+}
