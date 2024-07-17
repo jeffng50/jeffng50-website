@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { constants, Modal } from '$lib';
+	import IconEmail from '~icons/mdi/email';
 
 	let showModal: boolean = false;
 	let memeAudio: HTMLAudioElement;
@@ -42,7 +43,7 @@
 			<div class="mt-4 flex space-x-3 md:mt-6 rtl:space-x-reverse">
 				<a class="btn btn-accent" href="./">See my website</a>
 				<a class="btn btn-outline btn-accent dark:text-white" href="mailto:50jeffng@gmail.com"
-					>Mail me</a
+					><IconEmail class="h-6 w-6 shrink-0" />Mail me</a
 				>
 			</div>
 		</div>

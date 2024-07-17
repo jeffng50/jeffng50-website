@@ -1,7 +1,7 @@
 ---
 title: Welcome to my blog :)
 description: This is the first post
-date: 2024-07-16
+date: 2024-07-17
 tags:
   - journal
   - tech

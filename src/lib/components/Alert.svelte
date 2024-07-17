@@ -6,7 +6,6 @@
 	import IconEmoticonSadOutline from '~icons/mdi/emoticon-sad-outline';
 
 	export let mode: AlertMode;
-	export let title: string;
 	export let description: string = '';
 
 	const classname: { [K in AlertMode]: string } = {
@@ -30,7 +29,7 @@
 		<IconEmoticonSadOutline class="h-6 w-6 shrink-0" />
 	{:else}<!-- svelte-ignore empty-block -->{/if}
 	<div class="flex flex-col">
-		<span>{title}</span>
+		<span><slot /></span>
 		<span class="text-xs">{description}</span>
 	</div>
 </div>

@@ -9,9 +9,9 @@
 	>
 		<h1>{data.title}</h1>
 		{#each data.tags as tag}
-			<div class="badge text-black bg-[#e5e7eb] mr-2">
+			<a href={`/blog/tags/${tag}`} class="badge text-black bg-[#e5e7eb] mr-2">
 				{tag}
-			</div>
+			</a>
 		{/each}
 		<p>Published: {new Date(data.date).toLocaleDateString(undefined, dateOptions)}</p>
 		<div class="divider"></div>

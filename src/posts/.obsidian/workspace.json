@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "welcome-to-my-blog.md",
+                "file": "2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "2.md"
               }
             }
           }
@@ -144,11 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2922820782623247",
+  "active": "87d9c44d3b567572",
   "lastOpenFiles": [
+    "welcome-to-my-blog.md",
     "about-me",
     "New folder",
-    "welcome-to-my-blog.md",
     "Untitled.md",
     "2.md",
     "2021-12-14.md"

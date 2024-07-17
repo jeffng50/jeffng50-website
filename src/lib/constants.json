@@ -9,5 +9,7 @@
 		"About Me": "/about-me",
 		"Blog": "/blog",
 		"Namecard": "/namecard"
-	}
+	},
+
+	"email": "50jeffng@gmail.com"
 }
