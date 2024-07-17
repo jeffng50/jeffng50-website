@@ -42,7 +42,7 @@
 			</div>
 			<div class="mt-4 flex space-x-3 md:mt-6 rtl:space-x-reverse">
 				<a class="btn btn-accent" href="./">See my website</a>
-				<a class="btn btn-outline btn-accent dark:text-white" href="mailto:50jeffng@gmail.com"
+				<a class="btn btn-outline btn-accent dark:text-white" href={`mailto:${constants.email}`}
 					><IconEmail class="h-6 w-6 shrink-0" />Mail me</a
 				>
 			</div>
