@@ -9,7 +9,7 @@ tags:
 
 ## Well here we are
 
-I [have](www.great.com) successfully made a working blog, after so long and after 4 gruesome attempts. From the first try, I didn't really understand what CMS is, and tried to do it without hosting it. Then on my last attempt, I made a Strapi CMS hooked up with a Sveltekit static site generator, which is possible to do, just not ideal. I have always got stuck with something so complicated, and only found it happens in my case or it rarely happens. It turns out, I over-engineered everything from the beginning for such an easy site.
+I have successfully made a working blog, after so long and after 4 gruesome attempts. From the first try, I didn't really understand what CMS is, and tried to do it without hosting it. Then on my last attempt, I made a Strapi CMS hooked up with a Sveltekit static site generator, which is possible to do, just not ideal. I have always got stuck with something so complicated, and only found it happens in my case or it rarely happens. It turns out, I over-engineered everything from the beginning for such an easy site.
 
 ## Make it not engineer it
 
