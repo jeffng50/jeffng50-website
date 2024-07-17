@@ -1,0 +1,1 @@
+import{w as g}from"./index.oRnfg_4U.js";function f(e){return(e==null?void 0:e.length)!==void 0?e:Array.from(e)}function u(){const e="isdark",n=localStorage.getItem(e)?JSON.parse(localStorage.getItem(e)):!1,{subscribe:t,update:c}=g(n);return{subscribe:t,toggle:()=>c(s=>(localStorage.setItem(e,JSON.stringify(!s)),!s))}}const m=u();export{f as e,m as i};
