@@ -2,7 +2,7 @@
 	import { isDark, constants } from '$lib';
 </script>
 
-<div class="drawer">
+<div class="drawer z-50">
 	<input id="navbar-drawer" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content flex flex-col">
 		<div class="navbar pt-8 text-sm md:h-48">
