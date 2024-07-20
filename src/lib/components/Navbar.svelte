@@ -66,7 +66,7 @@
 							// @ts-ignore
 							document.getElementById('navbar-drawer').click();
 						}}
-						class="btn btn-primary text-primary-content h-40"
+						class="btn btn-primary text-primary-content h-24"
 						href={navbarLink}>{title}</a
 					>
 				</li>
