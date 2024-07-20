@@ -23,7 +23,7 @@ They only care about what they see, there's a famous quote that goes something l
 
 ### How did I make this
 
-Mainly a lot of the building blocks are done in the prior attempt, it's still Svelte, and boy do I love Svelte and its ease to use but it doesn't have the maturity of React, in terms of its community and its robustness. A huge shoutout to Josh Collinsworth for his excellent [tutorial](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog#optional-finishing-touches-and-extra-features) on how to make a markdown-based blog on Sveltekit, it has helped me and countless others.
+Mainly a lot of the building blocks are done in the prior attempt, it's still Svelte, and boy do I love Svelte and its ease to use but it doesn't have the maturity of React, in terms of its community and its robustness. A huge shoutout to Josh Collinsworth for his excellent [tutorial](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog#optional-finishing-touches-and-extra-features) on how to make a static markdown-based blog on Sveltekit, it has helped me and countless others.
 
 ### Tech stack
 
@@ -31,6 +31,10 @@ Mainly a lot of the building blocks are done in the prior attempt, it's still Sv
 2. [Tailwindcss](https://tailwindcss.com/)/[DaisyUI](https://daisyui.com/) for easy styling
 3. [MDsveX](https://github.com/pngwn/MDsveX)for allowing a [Jekyll](https://jekyllrb.com/)-like Markdown experience for posts (with a little setup, see tutorial linked above)
 4. [Obsidian](https://obsidian.md/)for editing Markdown files for posts
+
+### Why not dynamic
+
+I do not wish to pay to host a server, though that might be more convenient. Static websites are the way to go if you want free of charge hosting. 
 
 ## Here's to better creations
 
