@@ -15,6 +15,10 @@ npm run dev
 npm run dev -- --open
 ```
 
+### Conventional commits
+
+All commits' messages are based of this [convention](https://www.conventionalcommits.org)
+
 ## Building
 
 To create a production version:
