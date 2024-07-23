@@ -1,7 +1,8 @@
 ---
 title: Welcome to my blog :)
 description: This is the first post
-date: 2024-07-17
+createdDate: 2024-07-16
+modifiedDate: 2024-07-23
 tags:
   - journal
   - tech
@@ -35,6 +36,13 @@ Mainly a lot of the building blocks are done in the prior attempt, it's still Sv
 ### Why not dynamic
 
 I do not wish to pay to host a server, though that might be more convenient. Static websites are the way to go if you want free of charge hosting. 
+
+### I learned
+- How to better style frontend with [Tailwindcss](https://tailwindcss.com/)/[DaisyUI](https://daisyui.com/)
+- Making an API for the website to consume, check [posts](/api/posts) API
+- Dynamically importing [Markdown](https://www.markdownguide.org/) files to display
+- Publishing the website online through [Cloudflare Pages](https://pages.cloudflare.com/)
+- Making my [repository](https://github.com/jeffng50/jeffng50-website) (where source code is stored) look presentable and tidy with [Conventional Commits](https://www.conventionalcommits.org)
 
 ## Here's to better creations
 
