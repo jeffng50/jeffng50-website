@@ -13,7 +13,10 @@
 				{tag}
 			</a>
 		{/each}
-		<p>Published: {new Date(data.date).toLocaleDateString(undefined, dateOptions)}</p>
+		<p>Published: {new Date(data.createdDate).toLocaleDateString(undefined, dateOptions)}</p>
+		{#if data.modifiedDate}
+			<p>Last Modified: {new Date(data.modifiedDate).toLocaleDateString(undefined, dateOptions)}</p>
+		{/if}
 		<div class="divider"></div>
 
 		<svelte:component this={data.content} />

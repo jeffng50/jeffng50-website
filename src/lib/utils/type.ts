@@ -7,7 +7,8 @@ export declare type AlertMode = 'basic' | 'info' | 'success' | 'warning' | 'erro
 
 export interface PostMeta {
 	title: string;
-	date: string;
+	createdDate: string;
+	modifiedDate: string;
 	tags: string[];
 }
 
