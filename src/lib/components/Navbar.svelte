@@ -1,5 +1,8 @@
 <script>
 	import { isDark, isPersonal, constants } from '$lib';
+
+	const namecardLink = '/namecard';
+	const nameCardTitle = 'Namecard';
 </script>
 
 <div class="drawer z-50">
@@ -47,7 +50,7 @@
 							<li
 								class="rounded-btn hover:bg-base-content hover:text-base-content px-4 py-2 hover:bg-opacity-10"
 							>
-								<a href="/namecard">Namecard</a>
+								<a href={namecardLink}>{nameCardTitle}</a>
 							</li>
 						{/if}
 					</ul>
@@ -79,6 +82,18 @@
 					>
 				</li>
 			{/each}
+			{#if $isPersonal}
+				<li>
+					<a
+						on:click={() => {
+							// @ts-ignore
+							document.getElementById('navbar-drawer').click();
+						}}
+						class="btn btn-primary text-primary-content h-24"
+						href={namecardLink}>{nameCardTitle}</a
+					>
+				</li>
+			{/if}
 		</ul>
 	</div>
 </div>
