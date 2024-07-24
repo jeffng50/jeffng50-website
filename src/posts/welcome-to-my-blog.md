@@ -35,9 +35,10 @@ Mainly a lot of the building blocks are done in the prior attempt, it's still Sv
 
 ### Why not dynamic
 
-I do not wish to pay to host a server, though that might be more convenient. Static websites are the way to go if you want free of charge hosting. 
+I do not wish to pay to host a server, though that might be more convenient. Static websites are the way to go if you want free of charge hosting.
 
 ### I learned
+
 - How to better style frontend with [Tailwindcss](https://tailwindcss.com/)/[DaisyUI](https://daisyui.com/)
 - Making an API for the website to consume, check [posts](/api/posts) API
 - Dynamically importing [Markdown](https://www.markdownguide.org/) files to display

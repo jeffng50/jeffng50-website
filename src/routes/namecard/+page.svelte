@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { constants, Modal } from '$lib';
+	import { constants, Modal, isPersonal } from '$lib';
 	import IconEmail from '~icons/mdi/email';
 
 	let showModal: boolean = false;
@@ -18,6 +18,8 @@
 		memeAudio.pause();
 		memeAudio.currentTime = 0;
 	};
+
+	$: isPersonal.set(true);
 </script>
 
 <div class="flex h-screen flex-col items-center justify-center">
@@ -36,8 +38,8 @@
 			</div>
 
 			<div class="mt-8 grid grid-rows-none gap-2">
-				{#each Object.entries(constants.socialMediaLinks) as [title, socialMediaLink]}
-					<a class="btn btn-secondary btn-wide" href={socialMediaLink}>{title}</a>
+				{#each Object.entries(constants.namecardLinks) as [title, namecardLinks]}
+					<a class="btn btn-secondary btn-wide" href={namecardLinks}>{title}</a>
 				{/each}
 			</div>
 			<div class="mt-4 flex space-x-3 md:mt-6 rtl:space-x-reverse">

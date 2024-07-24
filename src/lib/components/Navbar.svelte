@@ -1,5 +1,5 @@
 <script>
-	import { isDark, constants } from '$lib';
+	import { isDark, isPersonal, constants } from '$lib';
 </script>
 
 <div class="drawer z-50">
@@ -42,6 +42,14 @@
 								<li class="py-2"><span>|</span></li>
 							{/if}
 						{/each}
+						{#if $isPersonal}
+							<li class="py-2"><span>|</span></li>
+							<li
+								class="rounded-btn hover:bg-base-content hover:text-base-content px-4 py-2 hover:bg-opacity-10"
+							>
+								<a href="/namecard">Namecard</a>
+							</li>
+						{/if}
 					</ul>
 				</div>
 			</div>

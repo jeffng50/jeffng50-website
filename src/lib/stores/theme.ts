@@ -2,7 +2,7 @@ import { writable } from 'svelte/store';
 import { browser } from '$app/environment';
 
 function createIsDark() {
-	const localStorageKeyName = 'isdark';
+	const localStorageKeyName = 'isDark';
 	const value =
 		browser &&
 		(localStorage.getItem(localStorageKeyName)

@@ -8,8 +8,9 @@ export { default as SlidingText } from './components/SlidingText.svelte';
 export { default as Modal } from './components/Modal.svelte';
 export { default as Alert } from './components/Alert.svelte';
 export { default as Card } from './components/Card.svelte';
+export { isDark } from './stores/theme';
+export { isPersonal } from './stores/personal';
 
-export * from './utils/store';
 export * from './utils/type';
 export * from './utils/date';
 export * from './utils/posts';
