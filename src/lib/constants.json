@@ -1,8 +1,13 @@
 {
 	"namecardLinks": {
-		"facebook": "https://www.facebook.com/jeef.arts/",
-		"instagram": "https://www.instagram.com/jeef.arts/",
-		"github": "https://github.com/jeffng50"
+		"art": {
+			"facebook": "https://www.facebook.com/jeef.arts/",
+			"instagram": "https://www.instagram.com/jeef.arts/"
+		},
+		"others": {
+			"cos instagram": "https://www.instagram.com/reno_coser/",
+			"github": "https://github.com/jeffng50"
+		}
 	},
 
 	"navbarLinks": {

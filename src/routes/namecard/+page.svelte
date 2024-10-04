@@ -38,7 +38,12 @@
 			</div>
 
 			<div class="mt-8 grid grid-rows-none gap-2">
-				{#each Object.entries(constants.namecardLinks) as [title, namecardLinks]}
+				<div class="divider">art</div>
+				{#each Object.entries(constants.namecardLinks.art) as [title, namecardLinks]}
+					<a class="btn btn-secondary btn-wide" href={namecardLinks}>{title}</a>
+				{/each}
+				<div class="divider">others</div>
+				{#each Object.entries(constants.namecardLinks.others) as [title, namecardLinks]}
 					<a class="btn btn-secondary btn-wide" href={namecardLinks}>{title}</a>
 				{/each}
 			</div>
