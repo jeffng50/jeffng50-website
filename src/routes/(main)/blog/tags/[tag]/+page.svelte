@@ -13,7 +13,7 @@
 						{post.meta.title}
 					</a>
 				</h2>
-				Published: {new Date(post.meta.date).toLocaleDateString(undefined, dateOptions)}
+				Published: {new Date(post.meta.createdDate).toLocaleDateString(undefined, dateOptions)}
 			</li>
 		{/each}
 	</ul>
