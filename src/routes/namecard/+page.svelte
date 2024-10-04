@@ -22,7 +22,7 @@
 	$: isPersonal.set(true);
 </script>
 
-<div class="flex h-dvh flex-col items-center justify-center">
+<div class="flex h-dvh my-4 flex-col items-center justify-center">
 	<div class="card bg-primary w-72 shadow-xl md:w-96">
 		<div class="flex flex-col items-center pb-4">
 			<div class="avatar mt-4">
@@ -37,15 +37,20 @@
 				<span class="text-sm text-gray-500">· human</span>
 			</div>
 
-			<div class="mt-8 grid grid-rows-none gap-2">
+			<div class="mt-4">
 				<div class="divider">art</div>
-				{#each Object.entries(constants.namecardLinks.art) as [title, namecardLinks]}
-					<a class="btn btn-secondary btn-wide" href={namecardLinks}>{title}</a>
-				{/each}
+				<div class="grid grid-rows-none gap-2">
+					{#each Object.entries(constants.namecardLinks.art) as [title, namecardLinks]}
+						<a class="btn btn-secondary btn-wide" href={namecardLinks}>{title}</a>
+					{/each}
+				</div>
+
 				<div class="divider">others</div>
-				{#each Object.entries(constants.namecardLinks.others) as [title, namecardLinks]}
-					<a class="btn btn-secondary btn-wide" href={namecardLinks}>{title}</a>
-				{/each}
+				<div class="grid grid-rows-none gap-2">
+					{#each Object.entries(constants.namecardLinks.others) as [title, namecardLinks]}
+						<a class="btn btn-secondary btn-wide" href={namecardLinks}>{title}</a>
+					{/each}
+				</div>
 			</div>
 			<div class="mt-4 flex space-x-3 md:mt-6 rtl:space-x-reverse">
 				<a class="btn btn-accent" href="./">See my website</a>
