@@ -16,7 +16,7 @@ function createIsPersonal() {
 			if (browser) {
 				localStorage.setItem(localStorageKeyName, JSON.stringify(value));
 			}
-			return value;
+			set(value);
 		}
 	};
 }

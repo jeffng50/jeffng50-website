@@ -1,7 +1,7 @@
 <script>
 	import { isDark, isPersonal, constants } from '$lib';
 
-	const namecardLink = '/namecard';
+	const nameCardLink = '/namecard';
 	const nameCardTitle = 'Namecard';
 </script>
 
@@ -50,7 +50,7 @@
 							<li
 								class="rounded-btn hover:bg-base-content hover:text-base-content px-4 py-2 hover:bg-opacity-10"
 							>
-								<a href={namecardLink}>{nameCardTitle}</a>
+								<a href={nameCardLink}>{nameCardTitle}</a>
 							</li>
 						{/if}
 					</ul>
@@ -90,7 +90,7 @@
 							document.getElementById('navbar-drawer').click();
 						}}
 						class="btn btn-primary text-primary-content h-24"
-						href={namecardLink}>{nameCardTitle}</a
+						href={nameCardLink}>{nameCardTitle}</a
 					>
 				</li>
 			{/if}
