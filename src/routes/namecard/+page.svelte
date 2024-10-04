@@ -22,7 +22,7 @@
 	$: isPersonal.set(true);
 </script>
 
-<div class="flex h-screen flex-col items-center justify-center">
+<div class="flex h-dvh flex-col items-center justify-center">
 	<div class="card bg-primary w-72 shadow-xl md:w-96">
 		<div class="flex flex-col items-center pb-4">
 			<div class="avatar mt-4">
