@@ -2,7 +2,7 @@
 title: Welcome to my blog :)
 description: This is the first post
 createdDate: 2024-07-16
-modifiedDate: 2024-07-23
+modifiedDate: 2024-10-05
 tags:
   - journal
   - tech
@@ -30,12 +30,12 @@ Mainly a lot of the building blocks are done in the prior attempt, it's still Sv
 
 1. [SvelteKit](https://kit.svelte.dev/)/ [Typescript](https://www.typescriptlang.org/) for the frontend
 2. [Tailwindcss](https://tailwindcss.com/)/[DaisyUI](https://daisyui.com/) for easy styling
-3. [MDsveX](https://github.com/pngwn/MDsveX)for allowing a [Jekyll](https://jekyllrb.com/)-like Markdown experience for posts (with a little setup, see tutorial linked above)
-4. [Obsidian](https://obsidian.md/)for editing Markdown files for posts
+3. [MDsveX](https://github.com/pngwn/MDsveX) for allowing a [Jekyll](https://jekyllrb.com/)-like Markdown experience for posts (with a little setup, see tutorial linked above)
+4. [Obsidian](https://obsidian.md/) for editing Markdown files for posts
 
 ### Why not dynamic
 
-I do not wish to pay to host a server, though that might be more convenient. Static websites are the way to go if you want free of charge hosting.
+I do not wish to pay to host a server, though that might be more convenient. Static websites are the way to go if you want free of charge hosting. (Though hosting it on custom domain does cost abit yearly)
 
 ### I learned
 
