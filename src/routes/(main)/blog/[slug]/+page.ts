@@ -1,4 +1,10 @@
 import type { BlogPost } from '$lib';
+import type { EntryGenerator } from './$types';
+
+export const entries: EntryGenerator = () => {
+	// put all personal posts slug here only
+	return [{ slug: 'post-two' }, { slug: 'post-three' }];
+};
 
 export async function load({ params }): Promise<BlogPost> {
 	const post = await import(`../../../../posts/${params.slug}.md`);

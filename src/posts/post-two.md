@@ -1,8 +1,8 @@
 ---
 title: Post Two
+description: This is the second post
 createdDate: 2024-07-23
 tags:
-  - opinion
   - personal
 ---
 
