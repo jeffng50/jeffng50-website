@@ -1,6 +1,10 @@
 <script lang="ts">
-	import { dateOptions } from '$lib';
+	import { dateOptions, isPersonal } from '$lib';
 	export let data;
+
+	$: if (data.tags.includes('personal')) {
+		isPersonal.set(true);
+	}
 </script>
 
 <div class="flex items-center justify-center">
