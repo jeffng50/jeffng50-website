@@ -24,7 +24,7 @@ const config = {
 			// these options are set automatically — see below
 			pages: 'build',
 			assets: 'build',
-			fallback: 'src/404.html',
+			fallback: undefined,
 			precompress: false,
 			strict: true
 		})
